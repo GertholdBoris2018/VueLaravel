@@ -135,8 +135,10 @@
         <!-- HIGHCHARTS -->
         <section class="cover imagebg particles-container">
             <h1 align="center">Income structure of the global gambling business in 2016-2017</h1>
-            <div id="chartcontainer">
-                <highcharts-renderer :width="width" :height="height" ref="highchartsRenderer"></highcharts-renderer>
+            <div id="charts">
+                <section class="chart-list">
+                    <pie-chart />
+                </section>
             </div>
         </section>
 
@@ -263,10 +265,17 @@
 </template>
 
 <script>
+    import PieChart from './PieChart.vue'
     export default {
-        name: "home"
+        name: "home",
+        components: {
+            PieChart
+        },
+        data() {
+            return {}
+        },
     }
-
+    
 </script>
 
 <style>

@@ -21,10 +21,16 @@
         "vue-loader": "^14.1.1",
         "vue-overlay": "^2.0.0",
         "vue-router": "^3.0.1",
-        "vue-template-compiler": "^2.5.13"
+        "vue-template-compiler": "^2.5.13",
+        "babel-core": "^6.0.0",
+        "babel-loader": "^6.0.0",
+        "babel-preset-es2015": "^6.0.0",
+        "css-loader": "^0.25.0",
+        "node-sass": "^4.5.0",
+        "sass-loader": "^6.0.1"
     },
     "dependencies": {
-        "highcharts": "^6.0.6",
-        "vue-highcharts": "0.0.10"
+        "highcharts": "^6.0.3",
+        "vue2-highcharts": "^1.1.6"
     }
 }
